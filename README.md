@@ -1,4 +1,4 @@
-# FortiBleed Defensive Checker
+# FortiBleed Defensive Checker Division81 Gruop Oruss
 
 Script defensivo para inventariar exposición de Fortinet/FortiGate/FortiProxy/FortiWeb frente al contexto **FortiBleed**.
 
@@ -27,7 +27,7 @@ pip install -r requirements.txt
 Un objetivo:
 
 ```bash
-python fortibleed_check.py -t https://vpn.example.com
+python fortibleed_check.py -t https://vpn.tudominio.com
 ```
 
 Lista de objetivos:
@@ -51,8 +51,8 @@ python fortibleed_check.py -f targets.txt --insecure
 ## Formato de `targets.txt`
 
 ```txt
-vpn.example.com
-https://fw.example.com
+vpn.tudominio.com
+https://fw.tudominio.com
 203.0.113.10:10443
 ```
 
@@ -77,3 +77,5 @@ https://fw.example.com
 ## Alcance y ética
 
 Ejecutar únicamente sobre activos propios o con autorización explícita. Este script está diseñado para evaluación defensiva y no realiza explotación.
+
+## División81 Equipo de Ethical Hackers del GRUPO ORUSS.
