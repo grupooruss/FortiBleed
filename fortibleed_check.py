@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-FortiBleed Defensive Exposure Checker
+FortiBleed Defensive Exposure Checker Division81 Grupo Oruss|Ethical Hackers
 
 Purpose:
   Safe, non-exploitative checks for Fortinet/FortiGate/FortiProxy internet exposure,
