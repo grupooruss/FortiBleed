@@ -13,13 +13,13 @@ Important:
   test stolen credentials, bypass authentication, dump configs, or exploit devices.
 
 Usage examples:
-  python fortibleed_check.py -t https://vpn.example.com
+  python fortibleed_check.py -t https://vpn.tudominio.com
   python fortibleed_check.py -f targets.txt --json results.json --csv results.csv
   python fortibleed_check.py -f targets.txt --ports 443,8443,10443 --timeout 8
 
 Input target formats:
   vpn.example.com
-  https://vpn.example.com
+  https://vpn.tudominio.com
   203.0.113.10:10443
 
 Exit codes:
